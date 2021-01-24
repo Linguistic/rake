@@ -21,7 +21,7 @@ public class Rake {
     String language;
     String stopWordsPattern;
 
-    Rake(String language) {
+    public Rake(String language) {
         this.language = language;
 
         // Read the stop words file for the given language
