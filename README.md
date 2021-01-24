@@ -34,7 +34,7 @@ needs a language code in order to run. Any constant found in `RakeLanguages` can
 public class Main {
     public static void main(String[] args) {
         String languageCode = RakeLanguages.ENGLISH;
-        String rake = new Rake(languageCode);
+        Rake rake = new Rake(languageCode);
         LinkedHashMap<String, Double> results = rake.getKeywordsFromText("Your text would go here."));
     	System.out.println(results);
     }
